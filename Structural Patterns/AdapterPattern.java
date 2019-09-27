@@ -22,7 +22,7 @@ class Adapter implements IInput {
   }
 }
 
-class Main {
+class AdapterPattern {
   public static void main(String[] args) {
     // Client side - call request from adapter
     IInput input = new Adapter(new Adaptee());
