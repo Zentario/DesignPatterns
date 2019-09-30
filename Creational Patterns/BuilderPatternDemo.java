@@ -43,7 +43,7 @@ class Example {
 }
 
 
-public class Main {
+public class BuilderPatternDemo {
   public static void main(String[] args) {
     Example e1 = new Example.Builder(10, 20).build();
     Example e2 = new Example.Builder(30, 40).setTrue(true).build();
